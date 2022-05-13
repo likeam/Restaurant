@@ -40,7 +40,7 @@ document.querySelector('#close').onclick = () =>{
 document.querySelector('#search-form').classList.remove('active');
 }    
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.home-slider', {
    // Optional parameters
     direction: 'vertical',
     loop: true,
