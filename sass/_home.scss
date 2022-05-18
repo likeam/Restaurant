@@ -1,0 +1,50 @@
+
+/* HOME SECTION */
+.home .home-slider .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem; 
+    padding-top: 9rem;
+
+    & .content{
+        flex:1 1 45rem;
+    }
+    & .image{
+        flex:1 1 45rem;
+    }
+    & .image img{
+        width: 100%;
+    }
+    & .content span{
+        color:var(--green);
+        font-size: 2.5rem;
+    }
+    & .content h3{
+        color:var(--black);
+        font-size: 7rem;
+    }
+    & .content p{
+        color:var(--light-color);
+        font-size: 2.2rem;
+        padding:.5rem 0;
+        line-height: 1.5;
+    }
+}
+
+
+
+
+
+/* MEDIA QUARIES */
+
+
+@media (max-width:768px){
+
+
+    .home .home-slider .slide .content h3{
+        font-size: 5rem;
+    }
+
+}
+
